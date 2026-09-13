@@ -1,0 +1,5 @@
+user_id,first_name,last_name,email,age,signup_date,active_status,phone_number
+1001,John,Doe,john.doe@example.com,thirty-two,2026-01-15,YES,+1-555-1001
+1002,Jane,Smith,jane.smith@example.com,twenty-eight,2026-01-18,YES,+44-555-1002
+1003,Ravi,Kumar,ravi.kumar@example.com,thirty-five,2026-02-01,YES,+91-555-1003
+1004,Emily,Wilson,emily.wilson@example.com,forty-one,2026-02-05,NO,+1-555-1004

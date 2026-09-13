@@ -1,0 +1,50 @@
+2026-09-13 09:41:15,550 | INFO | Schema Drift Monitor started
+2026-09-13 09:41:15,698 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-13 09:41:15,698 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 09:41:15,701 | INFO |  * Restarting with stat
+2026-09-13 09:41:16,514 | INFO | Schema Drift Monitor started
+2026-09-13 09:41:16,576 | WARNING |  * Debugger is active!
+2026-09-13 09:41:16,600 | INFO |  * Debugger PIN: 621-939-129
+2026-09-13 09:43:56,624 | INFO | 127.0.0.1 - - [13/Sep/2026 09:43:56] "GET / HTTP/1.1" 200 -
+2026-09-13 09:43:56,694 | INFO | 127.0.0.1 - - [13/Sep/2026 09:43:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-13 09:44:03,796 | INFO | 127.0.0.1 - - [13/Sep/2026 09:44:03] "GET / HTTP/1.1" 200 -
+2026-09-13 09:46:39,173 | INFO | 127.0.0.1 - - [13/Sep/2026 09:46:39] "GET / HTTP/1.1" 200 -
+2026-09-13 09:46:42,138 | INFO | 127.0.0.1 - - [13/Sep/2026 09:46:42] "GET / HTTP/1.1" 200 -
+2026-09-13 09:48:43,832 | INFO | Schema Drift Monitor started
+2026-09-13 09:48:43,905 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-13 09:48:43,905 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 09:48:43,964 | INFO |  * Restarting with watchdog (fsevents)
+2026-09-13 09:48:45,003 | INFO | Schema Drift Monitor started
+2026-09-13 09:48:45,014 | WARNING |  * Debugger is active!
+2026-09-13 09:48:45,029 | INFO |  * Debugger PIN: 498-807-680
+2026-09-13 09:51:48,918 | INFO | Schema Drift Monitor started
+2026-09-13 09:51:49,003 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-13 09:51:49,004 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 09:51:49,006 | INFO |  * Restarting with stat
+2026-09-13 09:51:49,666 | INFO | Schema Drift Monitor started
+2026-09-13 09:51:49,721 | WARNING |  * Debugger is active!
+2026-09-13 09:51:49,742 | INFO |  * Debugger PIN: 621-939-129
+2026-09-13 09:56:31,655 | INFO | Schema Drift Monitor started
+2026-09-13 09:56:31,661 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-09-13 09:56:31,661 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 10:02:03,204 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-09-13 10:02:03,205 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 10:04:05,216 | INFO | 127.0.0.1 - - [13/Sep/2026 10:04:05] "GET / HTTP/1.1" 200 -
+2026-09-13 10:04:05,283 | INFO | 127.0.0.1 - - [13/Sep/2026 10:04:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-13 10:15:44,983 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-09-13 10:15:44,987 | INFO | [33mPress CTRL+C to quit[0m
+2026-09-13 10:17:04,029 | INFO | 127.0.0.1 - - [13/Sep/2026 10:17:04] "GET / HTTP/1.1" 200 -
+2026-09-13 10:17:04,909 | INFO | 127.0.0.1 - - [13/Sep/2026 10:17:04] "GET / HTTP/1.1" 200 -
+2026-09-13 10:17:09,880 | INFO | 127.0.0.1 - - [13/Sep/2026 10:17:09] "GET / HTTP/1.1" 200 -
+2026-09-13 10:25:47,134 | WARNING | FILE=users_valid.csv | SEVERITY=WARNING | ADDED=0 | REMOVED=0 | TYPE_CHANGES=0 | NULLABILITY=1 | REQUIRED_MISSING=0
+2026-09-13 10:31:03,185 | ERROR | FILE=users_valid.csv | ROWS=8 | COLUMNS=8 | SEVERITY=CRITICAL | ADDED=0 | REMOVED=0 | TYPE_CHANGES=1 | NULLABILITY_CHANGES=1 | REQUIRED_MISSING=0
+2026-09-13 10:32:19,857 | ERROR | FILE=users_added_column.csv | ROWS=4 | COLUMNS=9 | SEVERITY=CRITICAL | ADDED=1 | REMOVED=0 | TYPE_CHANGES=1 | NULLABILITY_CHANGES=1 | REQUIRED_MISSING=0
+2026-09-13 10:32:44,264 | ERROR | FILE=users_removed_column.csv | ROWS=4 | COLUMNS=7 | SEVERITY=CRITICAL | ADDED=0 | REMOVED=1 | TYPE_CHANGES=1 | NULLABILITY_CHANGES=1 | REQUIRED_MISSING=1
+2026-09-13 10:33:00,590 | ERROR | FILE=users_type_changed.csv | ROWS=4 | COLUMNS=8 | SEVERITY=CRITICAL | ADDED=0 | REMOVED=0 | TYPE_CHANGES=1 | NULLABILITY_CHANGES=1 | REQUIRED_MISSING=0
+2026-09-13 10:33:19,525 | ERROR | FILE=users_multiple_drift.csv | ROWS=4 | COLUMNS=8 | SEVERITY=CRITICAL | ADDED=2 | REMOVED=2 | TYPE_CHANGES=2 | NULLABILITY_CHANGES=1 | REQUIRED_MISSING=2

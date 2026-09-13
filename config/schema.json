@@ -1,0 +1,46 @@
+{
+    "schema_name": "Customer User Schema",
+    "version": "1.0",
+    "columns": {
+        "user_id": {
+            "type": "integer",
+            "nullable": false,
+            "required": true
+        },
+        "first_name": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        },
+        "last_name": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        },
+        "age": {
+            "type": "integer",
+            "nullable": true,
+            "required": false
+        },
+        "country": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        },
+        "signup_date": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        },
+        "is_active": {
+            "type": "boolean",
+            "nullable": false,
+            "required": true
+        }
+    }
+}

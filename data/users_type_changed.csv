@@ -1,0 +1,5 @@
+user_id,first_name,last_name,email,age,country,signup_date,is_active
+1001,John,Doe,john.doe@example.com,"32",USA,2026-01-15,True
+1002,Jane,Smith,jane.smith@example.com,"28",UK,2026-01-18,True
+1003,Ravi,Kumar,ravi.kumar@example.com,"35",India,2026-02-01,True
+1004,Emily,Wilson,emily.wilson@example.com,"41",Canada,2026-02-05,False
